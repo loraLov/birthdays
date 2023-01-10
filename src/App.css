@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body{
+  background-color: #C8FFD4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  display: flex;
+  justify-content: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  background-color: #227C70;
 
-.App-link {
-  color: #61dafb;
+  margin-top:50px;
+  padding:40px;
+  color:#fff;
 }
+.btn{
+  padding: 10px;
+  background-color: #EA047E;
+  border: none;
+  width: 200px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Archivo', sans-serif;
+  cursor: pointer;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+h4{
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+}
+p{
+  font-size: 20px;
+  font-family: 'Archivo', sans-serif;
+  
+}
+h1{
+  font-family: 'Dancing Script', cursive;
+  color: #EA047E;
+  font-size: 50px;
+}
+h2{
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+}
+.btnBig{
+  margin-top: 20px;
+  background-color: #EA047E;
+  color: #fff;
+  font-family: 'Archivo', sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  width: 430px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
